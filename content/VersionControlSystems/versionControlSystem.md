@@ -123,6 +123,8 @@ math: true
 ![bg right:50% 25% vertical](../../figures/git.png)
 ![bg right:50% 25% vertical](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Mercurial_no_border_logo.svg/800px-Mercurial_no_border_logo.svg.png)
 
+<div style="font-size:24px">
+
 **Distrubted Model**
 
 - ArX [OS]
@@ -135,9 +137,14 @@ math: true
 - Code Co-op [P]
 - Sun WorkShop TeamWare [P]
 - Plastic SCM [P]
+
+</div>
+
 ---
 
 ## Git Characteristics 
+
+<div style="font-size:26px">
 
 - A very popular VCS
 - Performance
@@ -150,6 +157,8 @@ math: true
   - Non-linear development
   - Detailed log of information
 
+</div>
+
 ![bg right:40% 60%](../../figures/git.png)
 
 --- 
@@ -160,6 +169,8 @@ math: true
 ![bg right:50% 30% vertical](https://www.guru99.com/images/1/120718_0548_13BestGithu2.png)
 ![bg right:50% 30% vertical](https://www.guru99.com/images/2/taravault-logo.png)
 ![bg right:50% 30% vertical](https://www.guru99.com/images/1/120718_0548_13BestGithu6.png)
+
+<div style="font-size:24px">
 
 - TaraVault
 - BitBucket
@@ -172,6 +183,9 @@ math: true
 - BeanStalk
 - Phabricator
 - ...many more
+
+</div>
+
 ---
 
 ## GitHub - What is it and features?

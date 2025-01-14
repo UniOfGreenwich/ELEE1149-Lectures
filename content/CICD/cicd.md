@@ -165,6 +165,114 @@ math: true
 - TeamCity
 
 
+---
+
+## How GitHub Actions Work
+
+<table style="width:100%; font-size:25px"">
+<tr>
+<td style="width:60%" >
+
+1. **Triggers**: Define events to start workflows (e.g., `push`, `pull_request`, `schedule`).
+2. **Workflow**: A collection of jobs defined in a YAML file.
+3. **Jobs**: Independent units, each with multiple steps.
+4. **Actions**: Individual tasks in a workflow.
+
+</td>
+
+<td>
+
+```yaml
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - name: Install dependencies
+        run: npm install
+      - name: Run tests
+        run: npm test
+```
+
+</td>
+</tr>
+</table>
 
 
+---
 
+## Benefits of GitHub Actions
+
+- **Automation**:
+  - Automated builds, tests, and deployments.
+- **Scalability**:
+  - Run workflows in parallel.
+- **Integration**:
+  - Connect with cloud providers, databases, and third-party tools.
+- **Community Support**:
+  - Use and contribute to the GitHub Marketplace.
+
+---
+
+## Setting Up GitHub Actions
+
+1. **Create a `.github/workflows` folder**:
+   - Store workflow YAML files here.
+2. **Define a Workflow**:
+   - Specify triggers, jobs, and steps.
+3. **Use Marketplace Actions**:
+   - Pre-built solutions for common tasks.
+
+---
+
+## Example: Deploying a Static Website
+
+<div style="font-size:22px">
+
+```yaml
+name: Deploy Website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Build website
+        run: |
+          npm install
+          npm run build
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+```
+
+</div>
+
+---
+
+## Debugging Workflows
+
+- **Workflow Logs**:
+  - Access logs via the Actions tab.
+- **Enable Debugging**:
+  - Use `ACTIONS_STEP_DEBUG` for detailed logs.
+- **Common Issues**:
+  - Missing secrets or tokens.
+  - Incorrect syntax in YAML files.

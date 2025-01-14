@@ -51,6 +51,8 @@ math: true
 
 ## Why do we Test? 
 
+<div style="font-size:25px">
+
 - Ensures a high quality of code.
 - Catches bugs early.
 - Ensures we are ‘building the product right’.
@@ -61,6 +63,8 @@ math: true
 - If tests fail then one of two things has happened:
   - Programming errors: You have made an error in the logic of your code (perhaps an out fo bounds error)
   - Understanding errors: You have not understood the requirements, or overlooked definition in the problem 
+
+</div>
 
 ---
 
@@ -180,19 +184,19 @@ math: true
 - Gherkin is a plain-text language with a simple structure. It is designed to be easy to learn by non-programmers, yet structured enough to allow concise description of test scenarios and examples to illustrate business rules in most real-world domains.
 
 
-```gherkin
-Feature: Account Holder withdraws cash
- 
-Scenario: Account has sufficient funds
-    Given The account balance is $100
-      And the card is valid
-      And the machine contains enough money
-     When the Account Holder requests $20
-     Then the ATM should dispense $20
-      And the account balance should be $80
-      And the card should be returned
+  ```gherkin
+  Feature: Account Holder withdraws cash
+  
+  Scenario: Account has sufficient funds
+      Given The account balance is $100
+        And the card is valid
+        And the machine contains enough money
+      When the Account Holder requests $20
+      Then the ATM should dispense $20
+        And the account balance should be $80
+        And the card should be returned
 
-```
+  ```
 
 ---
 
@@ -296,6 +300,8 @@ public class MathTests
 
 ## Testing as part of the Pipeline
 
+<div style="font-size:26px">
+
 - Remember when we said last week that we ran our tests before we deployed our software?
   - What we really mean are our **functional** tests (Unit, Feature, System and Release tests)
 
@@ -304,6 +310,8 @@ public class MathTests
 - In bigger organisations performance and load testing may undertaken by you infrastructure team
 
 - Security testing should always involve a third party. Either you don’t have the expertise in your organisation or you will be biased and fail to test something important.
+
+</div>
 
 ---
 

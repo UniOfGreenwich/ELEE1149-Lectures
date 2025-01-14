@@ -61,6 +61,8 @@ math: true
 
 ## Software engineering is different from other types of engineering 
 
+<div style="font-size:24px">
+
 - The product is immaterial
   - Software cannot be seen or touched. Software project managers cannot see progress by simply looking at the artefact that is being constructed. 
 
@@ -69,6 +71,8 @@ math: true
 
 - Software processes are variable and organization specific
   - We still cannot reliably predict when a particular software process is likely to lead to development problems. 
+
+</div>
 
 ---
 
@@ -119,6 +123,8 @@ So what does risk management involve?
 
 ## Risk Management
 
+<div style="font-size:24px">
+
 - One of the most important jobs of a project manager
 
 - Risk management is concerned with identifying risks and drawing up plans to minimise their effect on a project.
@@ -128,13 +134,15 @@ So what does risk management involve?
 
 - You have to anticipate risks, understand the impact of these risks on the project, the product and the business and take steps to avoid these risks. 
 
+</div>
+
 ---
 
 ## Risk classification
 
 There are two dimensions of risk classification
 
-![w:900 center](https://www.researchgate.net/profile/Muhammad-Jamaluddin-Thaheem/publication/303805586/figure/fig5/AS:614277325025293@1523466535439/4-Risk-classification.png)
+![w:800 center](https://www.researchgate.net/profile/Muhammad-Jamaluddin-Thaheem/publication/303805586/figure/fig5/AS:614277325025293@1523466535439/4-Risk-classification.png)
 
 
 --- 
@@ -235,6 +243,8 @@ There are two dimensions of risk classification
 
 ## Risk Planning
 
+<div style="font-size:24px">
+
 - Consider each risk and develop a strategy to manage that risk. The project manager has to think of actions that need to be taken to minimize the disruption to the project if a specified risk occurs
 
 - *Avoidance strategies*
@@ -245,6 +255,8 @@ There are two dimensions of risk classification
 
 - *Contingency plans*
   - If the risk arises, contingency plans are plans to deal with that risk, example – the strategy for organisational financial problems in the table that follows
+
+</div>
 
 ---
 

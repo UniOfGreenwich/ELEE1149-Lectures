@@ -47,11 +47,14 @@ math: true
 
 ## Introduction
 
+<div style="font-size:26px">
 
 - Developed by Taiichi Ohno(Industrial Engineer and Businessman) for Toyota automotive. 
 - early 1940's 
 - Simple planning system, the aim of which was to control and manage work and inventory at every stage of production optimally.
 - David J. Anderson who was the first to apply the concept to IT, Software development and knowledge work in general in the year 2004
+
+</div>
 
 ![bg right:40% 50% vertical](https://www.nimblework.com/wp-content/uploads/2022/12/Taiichi_Ohno1.webp)
 ![bg right:40% 50% vertical](https://opexlearning.com/resources/wp-content/uploads/2014/09/david-j-anderson-leankanban.png)
@@ -111,7 +114,7 @@ In a classic Kanban board model, there are three columns, as shown in the pictur
 ---
 ## Kanban Diagram
 
-![ w:900 center ](https://kanbanize.com/wp-content/uploads/website-images/kanban-resources/Kanban_board-elements.png)
+![ w:800 center ](https://kanbanize.com/wp-content/uploads/website-images/kanban-resources/Kanban_board-elements.png)
 
 <!--
 
@@ -172,7 +175,7 @@ At the core of Kanban is the concept of “Flow”. This means that the cards sh
 
 - In Kanban we use cumulative flow diagrams to show how much work we are completing
 
-![w:800 center](../../figures/cumulativeFlow.png)
+![w:700 center](../../figures/cumulativeFlow.png)
 
 ---
 
